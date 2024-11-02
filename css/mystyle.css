@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* font-family: "Inter", sans-serif; */
+.container{
+    width: min(100%, 1440px);
+    margin: auto;
+    padding-top: 99px;
+}
+/* header */
+header{
+    position: fixed;
+    max-width: inherit;
+    width: inherit;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #012426;
+    padding: 16px 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 13;
+}
+.burger,
+.xmark{
+    display: none;
+}
+
+.header_ul{
+    display: flex;
+    column-gap: 72px;
+}
+.header_text{
+    font-family: "Inter", sans-serif; 
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #A1C3C9;
+}
+.header_section{
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+}
+.header_button{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #05bcca;
+    background-color: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.middle{
+    border: none;
+    background-color: #05bcca;
+}
+.header_text:hover{
+    text-decoration: 2px solid #C46A2B underline;
+    text-underline-offset: 6px;
+}
+.guitar_logo:hover{
+    transform: scale(1.2);
+}
+.header_button:hover{
+    border-color: whitesmoke;
+}
+.middle:hover{
+    background-color: whitesmoke;
+}
+/* section1 */
+.section1{
+    background-image:url(../images/Rectangle\ 12.png);
+    width: 1440px;
+    height: 560px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 452px;
+    top: 0;
+}
+.section1_text{
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    color: white;
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+.section1_txt2{
+    color: #05BCCA;
+}
+.section1_button{
+    width: 36px;
+    height: 24px;
+}
+.section1_h2:hover{
+  box-shadow:white 0 1px;
+}
+
+
+/* section2 */
+.section2{
+    background-color: #1A1A1A;
+    padding: 96px 94px;
+    
+}
+.section2_name{
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #05BCCA;
+    text-align: center;
+    text-decoration: underline 2px #05BCCA;
+    text-underline-offset: 10px;
+    margin-bottom: 64px;
+    animation-name: colorchange;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    }
+    @keyframes colorchange{
+        0%{
+            color: #C46A2B;
+        }
+        25%{
+            color: goldenrod;
+        }
+        50%{
+            color: #494949;
+        }
+        75%{
+            color: #005054;
+        }
+        100%{
+            color: rgb(0, 200, 255);
+        }
+        }
+ .card_section{
+    display: flex;
+    column-gap: 20px;
+    background-color: aqua;
+}
+.card_section_article{
+    background-color: #2C4246;
+    padding: 8px 8px 16px 8px;
+    border: 1px solid #05BCCA;
+}
+.card_image{
+   width: 100%;
+   height: 221px;
+   object-fit: cover;
+}
+.product_title{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-block: 16px;
+    color: #D9D9D9;
+} 
+.price_button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #05BCCA;
+}
+.card_button{
+    width: 58px;
+    height: 28px;
+    border-radius: 4px;
+    background-color: #C46A2B;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.product_title:hover{
+    text-decoration: underline 2px #C46A2B;
+}
+.price:hover{
+    text-decoration: underline 2px #C46A2B;
+} 
