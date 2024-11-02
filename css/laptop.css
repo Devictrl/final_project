@@ -1,0 +1,41 @@
+/* 1439-769 */
+@media (max-width:1181px){
+    /* header */
+    header{
+        padding-inline: 32px;
+    }
+    .menu{
+        position: fixed;
+        top: 99px;
+        left: -100%;
+        background-color: #c46a2b;
+        width: 200px;
+        height: 144px;
+        padding: 16px;
+        row-gap: 8px;
+        transition: .4s linear;
+    }
+    .burger{
+        display: block;
+    }
+    .header_ul{
+        flex-direction: column;
+    }
+    .show{
+        left: 0;
+    }
+    /* section2 */
+    .card_section_article{
+        padding: 0px;
+    }
+    .section2{
+        padding-inline: 32px;
+    }
+    
+    .card_text{
+        padding: 24px 8px 16px 8px;
+    }
+    .card_section{
+        overflow-x: scroll;
+    }
+}

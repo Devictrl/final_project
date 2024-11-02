@@ -1,0 +1,12 @@
+/* 480-320 */
+@media (max-width:321px){
+      /* header */
+      header{
+        padding-inline: 8px;
+        }
+        .section1{
+            width: 320px;
+            height: 320px;
+            padding-bottom: 256px;
+        }
+}
