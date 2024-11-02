@@ -10,6 +10,12 @@
         width: 744px;
         height: 480px;
     }
+    .section2{
+        width: 100%;
+    }
+    .card_section{
+        width: 100%;
+    }
 }
 @media (max-width:481px){
    /* header */
