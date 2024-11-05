@@ -1,12 +1,101 @@
 /* 480-320 */
+@media (max-width:481px){
+  /* header */
+  header{
+   padding-top: 28px;
+   padding-bottom: 28px;
+   padding-inline: 20px;
+}
+.guitar_logo{
+   width: 40px;
+   height: 40px;
+}
+.header_button{
+   width: 32px;
+   height: 32px;
+}
+/* section1 */
+   .section1{
+       padding-bottom: 416px;
+   }
+   .section1_text{
+   font-size: 24px;
+   line-height: 32px;
+   }
+   /* section2 */
+   .section2{
+       padding: 32px 0 32px 20px;
+   }
+   /* footer */
+   .footer{
+       flex-direction: column;
+       gap: 40px;
+   }
+   footer{
+       row-gap: 40px;
+       flex-direction: column;
+       padding: 32px 154px 32px 153px;
+   }
+   /* catalog */
+   .filter_p{
+       display: none;
+
+   }
+   .button_p{
+       display: none;
+   }
+      
+   .catalog_section{
+       padding: 20px 32px;
+   }
+   .catalog_card_section{
+       padding: 40px 20px;
+   }
+   .button_text{
+       display: none;
+   }
+   /* contact page */
+   .main_section_container{
+       padding-inline: 20px;
+   }
+   .input_section{
+       flex-direction: column;
+       row-gap: 36px;
+   }
+   .button_section{
+       column-gap: 42px;
+   }
+   }
 @media (max-width:321px){
       /* header */
       header{
         padding-inline: 8px;
         }
         .section1{
-            width: 320px;
-            height: 320px;
             padding-bottom: 256px;
         }
+        .section2{
+          padding: 32px 8px;
+        }
+        /* catalog */
+        .catalog_section{
+          padding: 32px 8px;
+        }
+        .catalog_card_section{
+          padding-inline: 8px 16px;
+      }
+      /* contact page */
+      .main_section_container{
+        padding: 48px 8px;
+    }
+    .main_section{
+      padding: 16px;
+    }
+    .input_section{
+      row-gap: 24px;
+    }
+    /* footer */
+    footer{
+      padding: 32px 74px 32px 73px;
+    }
 }
