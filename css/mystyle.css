@@ -36,6 +36,8 @@ header{
     font-weight: 400;
     line-height: 32px;
     color: #A1C3C9;
+    transition: all 0.3s;
+
 }
 .header_section{
     display: flex;
@@ -49,10 +51,14 @@ header{
     background-color: transparent;
     border-radius: 8px;
     cursor: pointer;
+    transition: all 0.3s;
+
 }
 .middle{
     border: none;
     background-color: #05bcca;
+    transition: all 0.3s;
+
 }
 .header_text:hover{
     text-decoration: 2px solid #C46A2B underline;
@@ -60,6 +66,8 @@ header{
 }
 .guitar_logo:hover{
     transform: scale(1.2);
+    transition: all 0.3s;
+
 }
 .header_button:hover{
     border-color: whitesmoke;
@@ -88,6 +96,7 @@ header{
     display: flex;
     align-items: center;
     column-gap: 24px;
+
 }
 .section1_txt2{
     color: #05BCCA;
@@ -151,6 +160,8 @@ header{
     background-color: #2C4246;
     padding: 8px 8px 16px 8px;
     border: 1px solid #05BCCA;
+    transition: all 0.3s;
+
 }
 .card_image{
    width: 100%;
@@ -164,6 +175,8 @@ header{
     line-height: 27px;
     margin-block: 16px;
     color: #D9D9D9;
+    transition: all 0.3s;
+
 } 
 .price_button{
     display: flex;
@@ -176,6 +189,7 @@ header{
     font-weight: 400;
     line-height: 27px;
     color: #05BCCA;
+    transition: all 0.3s;
 }
 .card_button{
     width: 58px;
@@ -192,9 +206,12 @@ header{
 
 .product_title:hover{
     text-decoration: underline 2px #C46A2B;
+    text-underline-offset: 6px;
 }
 .price:hover{
     text-decoration: underline 2px #C46A2B;
+    text-underline-offset: 4px;
+
 } 
 .card_section_article:hover{
     box-shadow: 0 0 10px #05BCCA, 0 0 20px #05BCCA;
@@ -216,6 +233,7 @@ footer{
     flex-direction: column;
     row-gap: 8px;
     text-align: center;
+    text-align: left;
 }
 .footer_titles{
     text-decoration: underline solid 2px #D9D9D9;
@@ -238,6 +256,23 @@ footer{
     display: flex;
     
     column-gap: 16px;
+}
+.footer_icon:hover{
+    transform: scale(1.2);
+    transition: all 01s;
+}
+/*footer hover */
+.footer_links:hover{
+    text-shadow: 0  0 10px #05bcca, 0 0 20px #05bcca, 0 0 30px #05bcca;
+    transition: all 1s;
+
+}
+.footer_titles:hover{
+    text-shadow: 0  0 10px white, 0 0 20px white, 0 0 30px white;
+    transition: all 1s;
+}
+.page_text:hover{
+    transform: scale(1.1);
 }
 /* catalog styles */
 .catalog_section{
@@ -369,27 +404,43 @@ footer{
 }
 .card:hover{
     box-shadow: 0 0 10px #05BCCA, 0 0 20px #05BCCA;
+    transition: all 01s;
 }
 .card_lorem:hover{
     text-decoration: underline 2px #C46A2B;
     text-underline-offset: 6px;
+    transition: all 1s;
 }
 .catalog_price:hover{
     text-decoration: underline 2px whitesmoke;
     text-underline-offset: 6px;
+    transition: all 03s;
 }
 .cart_button:hover{
     transform: scale(1.1);
+    transition: all 03s;
 }
 .Page_button:hover{
     box-shadow: 0 0 10px #C46A2B, 0 0 20px #C46A2B;
+    transition: all 1s;
 }
 .button_2:hover{
     box-shadow: 0 0 10px #05BCCA, 0 0 20px #05BCCA;
+    transition: all 1s;
 }
-.page_text:hover{
+.filter_p:hover{
+    text-decoration: underline 2px #C46A2B;
+    text-underline-offset: 6px;
+    transition: all 1s;
+}
+.sorty_by_style:hover{
     transform: scale(1.1);
+    color: #C46A2B;
+    transition: all 1s;
 }
+
+
+
 /* cotact page */
 .main_section_container{
     padding: 140px 201px;
@@ -600,11 +651,9 @@ iframe{
     line-height: 17px;
     color: #FFFFFFC2;    
 }
-/*footer hover */
-.footer_links:hover{
-    text-shadow: 0  0 10px #05bcca, 0 0 20px #05bcca, 0 0 30px #05bcca;
+.form_text:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+    color: #C46A2B;
+}
 
-}
-.footer_titles:hover{
-    text-shadow: 0  0 10px white, 0 0 20px white, 0 0 30px white;
-}
